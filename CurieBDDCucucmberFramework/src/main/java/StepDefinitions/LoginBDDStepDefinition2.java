@@ -12,7 +12,8 @@ import cucumber.api.java.en.When;
 public class LoginBDDStepDefinition2 {
 	
 	WebDriver driver=null;
-	@Given("^Url of application$")
+	
+	@Given("^Url of application is opened and enlarged$")
 	public void url_of_app()
 	{
 		   System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
