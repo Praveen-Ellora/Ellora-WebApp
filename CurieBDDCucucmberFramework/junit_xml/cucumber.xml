@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.116846">
+<testcase classname="BDDCuucmberLoginFeature" name="BDD Login Scenario" time="9.116846">
+<system-out><![CDATA[Given Url of application....................................................passed
+When url is opened..........................................................passed
+Then user enter "amit@gmail.com" and "amit123"..............................passed
+Then user user clicks Login button..........................................passed
+Then user is on home page...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

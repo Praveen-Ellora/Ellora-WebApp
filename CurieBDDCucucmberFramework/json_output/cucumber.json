@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "BDD Login Scenario",
+        "description": "",
+        "id": "bddcuucmberloginfeature;bdd-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8731419500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Url of application",
+            "match": {
+              "location": "LoginBDDStepDefinition.url_of_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6976400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "url is opened",
+            "match": {
+              "location": "LoginBDDStepDefinition.url_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261414500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"amit@gmail.com\" and \"amit123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amit@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "amit123",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginBDDStepDefinition.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108392900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user user clicks Login button",
+            "match": {
+              "location": "LoginBDDStepDefinition.user_user_clicks_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8642700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginBDDStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BDDCuucmberLoginFeature",
+    "description": "",
+    "id": "bddcuucmberloginfeature",
+    "keyword": "Feature",
+    "uri": "P:/Praveen/CurieBDDCucucmberFramework/src/main/java/CurieBDDLogin/BDDLogin.feature"
+  }
+]
