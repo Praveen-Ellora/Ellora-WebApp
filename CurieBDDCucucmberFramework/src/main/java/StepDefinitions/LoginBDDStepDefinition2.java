@@ -75,7 +75,7 @@ public class LoginBDDStepDefinition2 {
 	@Then("^User2 user clicks Login button$")
 	public void user_user_clicks_Login_button()
 	{
-		driver.findElement(By.id("signin")).cleick();
+		driver.findElement(By.id("signin")).click();
 	}
 	
 	
