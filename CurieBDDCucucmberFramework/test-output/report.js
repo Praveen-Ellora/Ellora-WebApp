@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("P:/Praveen/CurieBDDCucucmberFramework/src/main/java/CurieBDDLogin/BDDLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("P:/Praveen/CurieBDDCucucmberFramework/src/main/java/CurieBDDLogin/BDDLogin2.feature");
 formatter.feature({
   "line": 1,
   "name": "BDDCuucmberLoginFeature",
@@ -105,14 +105,14 @@ formatter.match({
   "location": "LoginBDDStepDefinition.url_of_app()"
 });
 formatter.result({
-  "duration": 8731419500,
+  "duration": 9134486000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBDDStepDefinition.url_is_opened()"
 });
 formatter.result({
-  "duration": 6976400,
+  "duration": 8815100,
   "status": "passed"
 });
 formatter.match({
@@ -129,21 +129,21 @@ formatter.match({
   "location": "LoginBDDStepDefinition.user_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 261414500,
+  "duration": 264930100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBDDStepDefinition.user_user_clicks_Login_button()"
 });
 formatter.result({
-  "duration": 108392900,
+  "duration": 76424800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginBDDStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 8642700,
+  "duration": 6238400,
   "status": "passed"
 });
 });

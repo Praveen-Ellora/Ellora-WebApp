@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8731419500,
+              "duration": 9134486000,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 6976400,
+              "duration": 8815100,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 261414500,
+              "duration": 264930100,
               "status": "passed"
             },
             "line": 6,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 108392900,
+              "duration": 76424800,
               "status": "passed"
             },
             "line": 7,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 8642700,
+              "duration": 6238400,
               "status": "passed"
             },
             "line": 8,
@@ -91,6 +91,6 @@
     "description": "",
     "id": "bddcuucmberloginfeature",
     "keyword": "Feature",
-    "uri": "P:/Praveen/CurieBDDCucucmberFramework/src/main/java/CurieBDDLogin/BDDLogin.feature"
+    "uri": "P:/Praveen/CurieBDDCucucmberFramework/src/main/java/CurieBDDLogin/BDDLogin2.feature"
   }
 ]
