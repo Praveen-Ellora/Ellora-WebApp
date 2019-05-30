@@ -13,7 +13,7 @@ public class LoginBDDStepDefinition2 {
 	
 	WebDriver driver=null;
 	
-	@Given("^Url of application is opened and enlarged************$")
+	@Given("^Url of application is opened and enlarged************88$")
 	public void url_of_app()
 	{
 		   System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
