@@ -78,7 +78,7 @@ public class LoginBDDStepDefinition2 {
 	public void click_All_Main_MenuAt_Top()
 	{
 		driver.findElement(By.id("signin")).click();
-		driver.findElement(By.id("signin")).click();
+		
 	}
 	
 	@Then("^User2 is on home page$")
