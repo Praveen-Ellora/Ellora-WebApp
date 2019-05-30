@@ -5,7 +5,6 @@ Feature: BDDCuucmberLoginFeature
     When url is opened
     Then user enter "<username>" and "<password>"
     Then user user clicks Login button
-    Then click all main menu at the top
     Then user is on home page
  
  
