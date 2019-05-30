@@ -1,11 +1,11 @@
 Feature: BDDCuucmberLoginFeature
 
   Scenario Outline: BDD Login Scenario
-    Given Url of application
-    When url is opened
-    Then user enter "<username>" and "<password>"
-    Then user user clicks Login button
-    Then user is on home page
+    Given Url2 of application
+    When Url2 is opened
+    Then User2 enter "<username>" and "<password>"
+    Then User2 user clicks Login button
+    Then User2 is on home page
  
  
  Examples:

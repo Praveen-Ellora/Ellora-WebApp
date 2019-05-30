@@ -3,8 +3,6 @@ package StepDefinitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -12,7 +10,7 @@ import cucumber.api.java.en.When;
 public class LoginBDDStepDefinition2 {
 	
 	WebDriver driver=null;
-	@Given("^Url of application$")
+	@Given("^Url2 of application$")
 	public void url_of_app()
 	{
 		   System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -23,7 +21,7 @@ public class LoginBDDStepDefinition2 {
 	}
 	
 	
-	@When("^url is opened$")
+	@When("^Url2 is opened$")
 	public void url_is_opened() throws InterruptedException
 	{
 		  String title=driver.getTitle();
@@ -58,7 +56,7 @@ public class LoginBDDStepDefinition2 {
 //	}
 //	
 	
-     @Then("^user enter \"([^\"]*)\" and \"([^\"]*)\"$")
+     @Then("^User2 enter \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_enter_and(String username, String password) throws Throwable {
 		
 		driver.findElement(By.id("username")).sendKeys(username);
@@ -68,7 +66,7 @@ public class LoginBDDStepDefinition2 {
 	
 	
 	
-	@Then("^user user clicks Login button$")
+	@Then("^User2 user clicks Login button$")
 	public void user_user_clicks_Login_button()
 	{
 		driver.findElement(By.id("signin")).click();
@@ -82,7 +80,7 @@ public class LoginBDDStepDefinition2 {
 		driver.findElement(By.id("signin")).click();
 	}
 	
-	@Then("^user is on home page$")
+	@Then("^User2 is on home page$")
 	public void user_is_on_home_page()
 	{
 		
