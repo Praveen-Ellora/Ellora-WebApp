@@ -10,13 +10,19 @@ import cucumber.api.java.en.When;
 public class LoginBDDStepDefinition2 {
 	
 	WebDriver driver=null;
+	
+
+
+	
 	@Given("^Url2 of application$")
+
 	public void url_of_app()
 	{
 		   System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 	       driver=new ChromeDriver();
 	       driver.get("https://curie-doctor.firebaseapp.com/#/app/login");
 	       driver.manage().window().maximize();
+	   	System.out.println("This is extra modifications");
 		
 	}
 	
