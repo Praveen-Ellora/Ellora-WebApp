@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 public class TableList {
 	
-	public static void main(String[] args) throws InterruptedException{
+	@Test
+	public void dhiraviyam() throws InterruptedException{
 		System.setProperty("webdriver.chrome.driver", "P:\\CurieFramework\\WebApp_CSWA\\Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 				//driver.manage().window().maximize();	
